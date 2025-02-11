@@ -1,0 +1,17 @@
+training:
+  num_epochs: 100
+  batch_size: 64
+  learning_rate: 0.001
+  gamma: 0.99
+  exploration_rate: 0.1
+  max_steps: 1000
+  num_episodes: 1000
+  
+model:
+  state_size: 50
+  action_size: 1
+
+visualization:
+  plot_error_ratio: true
+  error_radius: 3
+  
